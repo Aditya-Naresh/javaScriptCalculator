@@ -2,8 +2,9 @@
     height: 660px;
     width: 450px;
     background-color: antiquewhite;
-    display: flex;
+    display: block;
     border: 1px solidblack;
+    padding: 1rem;
 }
 
 #displayLabel{
@@ -17,5 +18,24 @@
     margin: auto;
     margin-top: 5px;
     width: 90%;
-    display: flex;
 }
+
+.buttons{
+    height: 5rem;
+    width: 4rem;
+    margin: 1rem;
+    font-size: large;
+}
+
+.buttonDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+#clear-button{
+    width: 10.3rem;
+}
+
